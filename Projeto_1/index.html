@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto_1</title>
+</head>
+
+<bodinput>
+    <!--O header correponde ao cabeçalho da página-->
+    <header id="inicio">
+        <h1><mark>Estrutura Básicas do HTML5</mark></h1>
+        <!--Utilizando um titulo tamanho h1 e uma marca texto.-->
+    </header>
+
+    <!-- Criando uma linha de espaçamento-->
+    <hr />
+
+    <!--Titulo tamanho h2-->
+    <h2>ÍNDICE</h2>
+    <!--Iniciando uma lista NÃO ordenada e titulo tamanho h3-->
+    <ul>
+        <h3>
+            <li><a href="#tag">Tags</a></li>
+        </h3>
+        <h3>
+            <li><a href="#links">Links</a></li>
+        </h3>
+        <h3>
+            <li><a href="#listas">Listas</a></li>
+        </h3>
+        <h3>
+            <li><a href="#input">Input</a></li>
+        </h3>
+        <h3>
+            <li><a href="#outros">Outros</a></li>
+        </h3>
+    </ul>
+    <!-- Utilizando uma citação com a formatação italica-->
+    <blockquote><i>Os conteudos a seguir foram montados com base nas aulas de formação de HTML.</i></blockquote>
+    <!--Titulo tamanho h2 com a formatação undeline-->
+
+    <h2 id="tag"><u>Tags</u></h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <!-- A tag p correponde a paragrafo-->
+    <p> Tags são comandos utilizados para se montar uma estrutura HTML, existem diversas delas, cada uma com sua funcionalidade.</p>
+    <p> São utilizados o sinal de maior e menor para se construir uma tag.</p>
+    <!--A tag strong formata o texto para negrito-->
+    <p> Cada uma é correspondente algum <strong>elemento</strong> dentro da página.</p>
+    <p> O usuario só verá os contéudos presentes nas tags que estiverem dentro do Body. Ela é uma das principais tags, pois é responsavel por forma o esqueleto do documento.</p>
+
+    <!--Quebra de Linha-->
+    <br />
+
+    <h2 id="links"><u>Links</u></h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <!-- A tag p correponde a paragrafo-->
+    <p> Os links são fundamentais para permitir uma navegação entre páginas diversas, ou numa mesma página.</p>
+    <p> Facilitam uma boa navegação e usabiliade para os usuarios.</p>
+    <!--A tag b formata o texto para negrito-->
+    <p> E ela é quem faz ancoras entre contéudos, é utilizado o atributo <b>href</b>, para permitir a linkagem e direcionamento.</p>
+
+    <!--Quebra de Linha-->
+    <br />
+    <br />
+
+    <h2 id="listas"><u>Listas</u></h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p> Existem dois tipos de listas presente no HTML, listas ordenadas (OL), e listas NÃO ordenadas (UL). </p>
+    <p> As ordenadas seguem uma ordem. Exemplo:</p>
+    <blockquote>
+        <!--Lista Ordenada-->
+        <ol>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ol>
+    </blockquote>
+    <!--A tag sup formata o texto para ficar sobrescrito é utilizado escrever um texto com letras menores e com o alinhamento acima das que do resto do conteúdo-->
+    <p> As não ordendas pelo contrario não segue uma ordem especifica, então são listas por um ponto <sup><b>.</b></sup>.</p>
+    <blockquote>
+        <!--Lista NÃO ordenada-->
+        <ul>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ul>
+    </blockquote>
+    <p> No primeiro instante a lista pode não ter tanta utilidade mas a partir do CSS, podemos construir e manipula-las para ter funcionalidades incriveis.</p>
+
+    <!--Quebra de Linha-->
+    <br />
+    <h2 id="input"><u>Input</u></h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>O input cria diferentes campos de entrada de dados no documento HTML.</p>
+    <input type="text" />
+    <input type="number" />
+    <input type="color" />
+    <p> Existem outros inputs a serem abordados, mas vale lembra que cada tem sua aplicação.</p>
+
+    <!--Quebra de Linha-->
+    <br />
+    <br />
+
+    <h4 id="outros"> Outros Tags</h4>
+    <!-- a tag small é utilizado para reduzir o tamanho da fonte num intervalo definido de um texto.-->
+    <small><a href="#inicio">Voltar</a></small>
+    <p> Ao utilizar siglas é possivel explicar o que sua abreviação significa a partir da tag abbr. EXEMPLO:</p>
+    <ul>
+        <li><abbr title="Brasil">BR</abbr></li>
+        <li><abbr title="Organização das Nações Unidas">ONU</abbr></li>
+        <li><abbr title="Fundação Universitária para o Vestibular"> FUVEST</abbr></li>
+        <li><abbr title="Confederação Brasileira de Futebol">CBF</abbr></li>
+    </ul>
+
+    <p>Continuando: <sub>A tag sub escrever um texto com letras menores e com o alinhamento abaixo das que do resto do conteúdo.</sub></p>
+    <p>A tag Form indica que estamos iniciando um formulário
+        <!--Formulario-->
+        <form>
+            <label>Name:</label>
+            <input type="text" name="name">
+            <input type="submit" value="Save">
+        </form>
+    </p>
+    <!--Tag del>-->
+    <p><del>Aqui foi utilizado a tag del.</del></p>
+    <!--Rodapé-->
+    <Footer>
+        <h6>@Desenvolvido por Manuela Alves</h6>
+    </Footer>
+
+    </body>
+
+</html>
